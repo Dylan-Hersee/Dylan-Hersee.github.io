@@ -1,20 +1,70 @@
-p{
-    Color:Black;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+@media(min-width:450px){
+    body{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        height: 100%;
+        width: 100%;
+        background-color: rgb(48, 44, 44);
+        border: 1px ;
+    border-style: ridge;
+    border-color: beige;
+    border-radius: 25px;
+    }
+.intro{
+    color: rgb(78, 95, 62);
+
 }
-body{
-    background-color:blanchedalmond;
+.heading{
+    text-align: center;
+    border: 1px ;
+    border-style: ridge;
+    border-color: beige;
+    border-radius: 25px;
+    
+}
+.main div, .container-2 div{
+    border: 1px ;
+    padding: 10px;
+    border-style: ridge;
+    border-color: beige;
+    border-radius: 25px;
+
+}
+.box-1{
+    flex: 1;
+    order: 2;
+    flex-basis: 45%;
+    
+}
+.box-2{
+    flex: 2;
+    order: 1;
+    flex-basis: 45%;
+}
+.main{
+    display: flex;
+    justify-content: flex-start;
+}
+.container-2{
+    display: flex;
+    justify-content: flex-start;
+
+}
+.box-3{
+    flex: 1;
+    order: 2;
+    flex-basis: 45%;
+
+}
+.box-4{
+    flex: 2;
+    order: 1;
+    flex-basis: 45%;
+}
+aside{
+    border: 1px;
+    padding: 10px;
+}
+.contact{
     text-align: center;
 }
-.skill{
-color:black;
-text-align: center;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-
-a{
-    color:blue;
-    font-family: monospace;
-    
 }
